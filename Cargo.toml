@@ -1,0 +1,8 @@
+[package]
+name = "gettid"
+version = "0.1.0"
+edition = "2024"
+description = "The gettid Command Shows How Linux Thread IDs Differ from Process IDs by Querying Concurrent Workers and Their Main Thread"
+
+[dependencies]
+clap = { version = "=4.6.6", default-features = false, features = ["derive", "std", "help", "usage", "error-context", "suggestions"] }
